@@ -1,0 +1,177 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.body-home {
+    background-image: url('images/mcdonalds-burgers-today-main-180927-1371184.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body-starters{
+    background-image: url('images/mcdonalds-burgers-today-main-180927-1371184.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*=================== HOME PAGE ================*/
+#home-logo-img {
+    width: 200px;
+    display: block;
+    margin: auto;
+    padding: 10px 25px 25px 25px;
+}
+
+.button {
+display: block;
+    width: 100%;
+    background-color: black;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 20px 0;
+    padding: 20px 0;
+}
+
+/**================ HOME PAGE MENU ==============*/
+.home-menu-item {
+    text-decoration: none;
+    text-transform: uppercase;
+
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    border: 5px solid black;
+
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+    width: 25%;
+}
+
+.home-menu-item:hover {
+    border: 1px solid white;
+    background: white;
+    transition: 1s;
+}
+
+/**================= MCDONALDS LOGO PAGE ============**/
+
+.header{
+    background-color:black;
+    width: 100%;
+    height: 170px;
+    top: 0;
+
+    position: fixed;
+    overflow: hidden;
+    text-align: center;
+}
+
+.header i{
+    float: left;
+    padding: 20px 0px 0px 20px;
+    color: white;
+}
+
+.header img{
+    width: 150px;
+    padding-top: 14px;
+    padding-right: 25px;
+}
+
+/**================= STARTER PAGE MENU ============**/
+
+#starters {
+    padding-top: 100px;
+    margin-top: 80px;
+}
+
+.starters-list a{
+    text-decoration: none;
+}
+
+.starters-list-item {
+    border: 5px solid #1a1a1a;
+    margin: 10px;
+}
+
+.starters-list-item h1{
+    font-weight: bold;
+    font-size: 20px;
+    color: #1a1a1a;
+    padding-left: 10px;
+}
+
+.starters-list-item i {
+    float: right;
+    color: #1a1a1a;
+    padding-right: 10px;
+    padding-top: 15px;
+}
+
+.starters-list-item p{
+    font-size: 15px;
+    font-style: italic;
+    color: #4d4d4d;
+    margin-top: -7px;
+    padding-left: 10px;
+}
+
+#about {
+    padding-top: 50px;
+}
+
+
+.about-details img{
+    width: 100%;
+    padding-top: 60px;
+}
+
+.about-details h1{
+    font-size: 25px;
+    text-align: center;
+    border: 5px solid #1a1a1a;
+    margin: 10px;
+    padding: 5px;
+}
+
+.about-details h2{
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+    margin-left: 10px;
+}
+
+.about-details-items {
+    padding-top: 20px;
+}
+
+.about-details-items label {
+       line-height: 25px;
+       margin-left: 10px;
+}
+
+.about-item {
+    padding-top: 20px;
+}
+
+.about-item p{
+    font-size: 20px;
+    display: inline-block;
+}
+
